@@ -159,17 +159,51 @@ h1 {
   font-size: 2rem;
   font-family: "Source Code Pro";
   color: #ffffff;
-  bottom: 1.5%;
+  bottom: 5%;
+}
+
+@media (min-height: 650px) {
+  .name-header {
+    position: relative;
+    font-size: 2rem;
+    font-family: "Source Code Pro";
+    color: #ffffff;
+    bottom: 1.5%;
+  }
 }
 
 .name {
   position: relative;
   font-size: 5rem;
   font-family: "Source Code Pro";
-  bottom: 17%;
+  bottom: 28%;
   background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 255));
   color: transparent;
   background-clip: text;
+}
+
+@media (min-height: 650px) {
+  .name {
+    position: relative;
+    font-size: 5rem;
+    font-family: "Source Code Pro";
+    bottom: 20%;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 255));
+    color: transparent;
+    background-clip: text;
+  }
+}
+
+@media (min-height: 820px) {
+  .name {
+    position: relative;
+    font-size: 5rem;
+    font-family: "Source Code Pro";
+    bottom: 17%;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 255));
+    color: transparent;
+    background-clip: text;
+  }
 }
 
 .desc-header {
@@ -177,18 +211,65 @@ h1 {
   font-size: 1.8rem;
   font-family: "Source Code Pro";
   color: #ffffff;
-  bottom: 33%;
+  bottom: 50%;
   left: 1%;
+}
+
+@media (min-height: 650px) {
+  .desc-header {
+    position: relative;
+    font-size: 1.8rem;
+    font-family: "Source Code Pro";
+    color: #ffffff;
+    bottom: 39%;
+    left: 1%;
+  }
+  
+}
+
+@media (min-height: 820px) {
+  .desc-header {
+    position: relative;
+    font-size: 1.8rem;
+    font-family: "Source Code Pro";
+    color: #ffffff;
+    bottom: 33%;
+    left: 1%;
+  }
 }
 
 .paragraph {
   font-family: "Source Code Pro";
   color: #ffffff;
-  bottom: 25%;
+  bottom: 50%;
 
-  font-size: 1rem;
+  font-size: 0.8rem;
 
   text-align: center;
+}
+
+@media (min-height: 650px) {
+  .paragraph {
+    font-family: "Source Code Pro";
+    color: #ffffff;
+    bottom: 36%;
+  
+    font-size: 0.8rem;
+  
+    text-align: center;
+  }
+}
+
+@media (min-height: 820px) {
+  .paragraph {
+    font-family: "Source Code Pro";
+    color: #ffffff;
+    bottom: 25%;
+  
+    font-size: 1rem;
+  
+    text-align: center;
+  }
 }
 
 .desc {
@@ -198,13 +279,20 @@ h1 {
 
 #social-icons {
   position: relative;
-  bottom: 5vh;
+  bottom: 14vh;
 }
 
-@media (min-width: 700px) {
+@media (min-height: 600px) {
   #social-icons {
     position: relative;
-    bottom: 21vh;
+    bottom: 12vh;
+  }
+}
+
+@media (min-height: 750px) {
+  #social-icons {
+    position: relative;
+    bottom: 5vh;
   }
 }
 
@@ -231,9 +319,20 @@ h1 {
   position: relative;
 
   left: 22.5vw;
-  top: 13vh;
+  top: 11vh;
 
   width: 50%;
+}
+
+@media (min-height: 650px) {
+  #dev-icons {
+    position: relative;
+  
+    left: 22.5vw;
+    top: 13vh;
+  
+    width: 50%;
+  }
 }
 
 @media (min-width: 700px) {
