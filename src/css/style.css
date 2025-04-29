@@ -43,7 +43,7 @@ h1 {
   place-content: center;
   place-self: center;
 
-  width: 35em;
+  width: 90vw;
   height: 100%;
 
   margin: 0 auto;
@@ -51,6 +51,78 @@ h1 {
   text-align: center;
 
   opacity: 0;
+}
+
+@media (min-width: 700px) {
+  #app {
+    z-index: 2;
+  
+    place-content: center;
+    place-self: center;
+  
+    width: 60vw;
+    height: 100%;
+  
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  
+    opacity: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  #app {
+    z-index: 2;
+  
+    place-content: center;
+    place-self: center;
+  
+    width: 50vw;
+    height: 100%;
+  
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  
+    opacity: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  #app {
+    z-index: 2;
+  
+    place-content: center;
+    place-self: center;
+  
+    width: 40vw;
+    height: 100%;
+  
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  
+    opacity: 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  #app {
+    z-index: 2;
+  
+    place-content: center;
+    place-self: center;
+  
+    width: 35vw;
+    height: 100%;
+  
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  
+    opacity: 0;
+  }
 }
 
 .logo {
@@ -64,7 +136,7 @@ h1 {
   border: 2px solid #0004423d;
   border-radius: 5%;
 
-  width: 115%;
+  width: 105%;
   height: 70vh;
 
   place-self: center;
@@ -84,17 +156,17 @@ h1 {
 
 .name-header {
   position: relative;
-  font-size: 40px;
+  font-size: 2rem;
   font-family: "Source Code Pro";
   color: #ffffff;
-  bottom: 2%;
+  bottom: 1.5%;
 }
 
 .name {
   position: relative;
-  font-size: 80px;
+  font-size: 5rem;
   font-family: "Source Code Pro";
-  bottom: 18%;
+  bottom: 17%;
   background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 255));
   color: transparent;
   background-clip: text;
@@ -102,17 +174,19 @@ h1 {
 
 .desc-header {
   position: relative;
-  font-size: 30px;
+  font-size: 1.8rem;
   font-family: "Source Code Pro";
   color: #ffffff;
-  bottom: 34%;
+  bottom: 33%;
   left: 1%;
 }
 
 .paragraph {
   font-family: "Source Code Pro";
   color: #ffffff;
-  bottom: 30%;
+  bottom: 25%;
+
+  font-size: 1rem;
 
   text-align: center;
 }
@@ -124,7 +198,14 @@ h1 {
 
 #social-icons {
   position: relative;
-  bottom: 21vh;
+  bottom: 5vh;
+}
+
+@media (min-width: 700px) {
+  #social-icons {
+    position: relative;
+    bottom: 21vh;
+  }
 }
 
 .github-icon {
@@ -148,11 +229,56 @@ h1 {
 
 #dev-icons {
   position: relative;
-  vertical-align: middle;
-  bottom: 70vh;
-  right: 25%;
 
-  width: 10%;
+  left: 22.5vw;
+  top: 13vh;
+
+  width: 50%;
+}
+
+@media (min-width: 700px) {
+  #dev-icons {
+    position: relative;
+    vertical-align: middle;
+    
+    bottom: 70vh;
+    top: -70vh;
+
+    left: -18vw;
+    right: 18vw;
+  
+    width: 10%;
+  }
+}
+
+@media (min-width: 900px) {
+  #dev-icons {
+    position: relative;
+    vertical-align: middle;
+
+    bottom: 70vh;
+    top: -70vh;
+
+    left: -10vw;
+    right: 10vw;
+  
+    width: 10%;
+  }
+}
+
+@media (min-width: 1420px) {
+  #dev-icons {
+    position: relative;
+    vertical-align: middle;
+
+    bottom: 70vh;
+    top: -70vh;
+
+    left: -6vw;
+    right: 6vw;
+  
+    width: 10%;
+  }
 }
 
 .icon-link {
