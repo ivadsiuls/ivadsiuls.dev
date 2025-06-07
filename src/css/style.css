@@ -303,3 +303,11 @@ a:hover {
 a:active {
     color: rgb(255, 255, 255);
 }
+
+hr {
+    border: 1px solid #0004423d;
+    background-color: #0004423d;
+    border-radius: 5px;
+
+    width: 100%;
+}
