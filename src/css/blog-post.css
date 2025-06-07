@@ -1,0 +1,46 @@
+body {
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+p {
+    font-size: 1.4vh;
+    text-align: left;
+
+    color: rgba(255, 255, 255, 0.856);
+}
+
+hr {
+    border: 1px solid #0004423d;
+    background-color: #0004423d;
+    border-radius: 5px;
+
+    width: 100%;
+}
+
+#header {
+    height: 0.1vh;
+}
+
+#post-desc {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.74);
+
+    font-weight: lighter;
+}
+
+#app {
+  min-width: 30ch;
+  max-width: 70ch;
+
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+#main {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
