@@ -13,10 +13,6 @@ p {
     color: rgba(255, 255, 255, 0.856);
 }
 
-#header {
-    height: 0.1vh;
-}
-
 #post-desc {
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.74);
